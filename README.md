@@ -21,3 +21,42 @@ Estructura del código
 /pages → Pantallas por rol (Cliente / Soporte / Admin)
 /context → Manejo de autenticación y solicitude
 /services → Simulación de API
+
+Cómo Probar la Aplicación
+
+Pantalla de Login
+Seleccione un rol:
+
+Cliente
+Soporte
+Administrador
+No hay autenticación real.
+Solo elige un rol para entrar.
+
+CLIENTE
+Funcionalidades:
+Crear solicitudes
+Ver solicitudes propias
+Ver estado y respuesta
+
+SOPORTE
+Funcionalidades:
+Ver solicitudes asignadas
+Actualizar estado
+Escribir respuesta
+
+ADMINISTRADOR
+Funcionalidades:
+Listado general de solicitudes
+Filtro por:
+Estado
+Cliente
+Fecha
+
+Pendiente:
+Autenticación real (usuarios y contraseñas)
+Asignación automática de solicitudes a soporte
+Filtros avanzados (múltiples criterios combinados)
+Tests automatizados
+Sistema de notificaciones
+El diseño falla 
