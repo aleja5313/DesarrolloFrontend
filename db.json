@@ -1,0 +1,30 @@
+{
+  "solicitudes": [
+    { 
+      "id": 1, 
+      "cliente": "juan", 
+      "titulo": "Problema de Acceso", 
+      "descripcion": "No puedo entrar al sistema.", 
+      "estado": "nuevo", 
+      "respuesta": null, 
+      "fecha": "2025-11-20" 
+    },
+    { 
+      "id": 2, 
+      "cliente": "maria", 
+      "titulo": "Solicitud de Cambio", 
+      "descripcion": "Necesito cambiar mi rol.", 
+      "estado": "en_proceso", 
+      "respuesta": "Estamos revisando su petición.", 
+      "fecha": "2025-11-21" 
+    }
+  ],
+  "estadisticas": {
+    "total": 2,
+    "por_estado": { 
+      "nuevo": 1, 
+      "en_proceso": 1, 
+      "resuelto": 0 
+    }
+  }
+}
